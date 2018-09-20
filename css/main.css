@@ -42,6 +42,7 @@ nav#menu a, nav#menu a:link, nav#menu a:visited, nav#menu a:hover, nav#menu a:ac
   color: #222;
   text-decoration: none;
   text-transform: uppercase;
+  outline: 0;
 }
 /* footer */
 footer {
@@ -67,11 +68,13 @@ footer #social-links a, footer #social-links a:link, footer #social-links a:visi
   color: #222;
   text-decoration: none;
   text-transform: uppercase;
+  outline: 0;
 }
 footer #social-links a:hover, footer #social-links a:active {
   color: #BBB;
   text-decoration: none;
   text-transform: uppercase;
+  outline: 0;
 }
 /* hero image */
 #hero {
