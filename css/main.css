@@ -45,9 +45,9 @@ nav#menu a, nav#menu a:link, nav#menu a:visited, nav#menu a:hover, nav#menu a:ac
 }
 /* footer */
 footer {
-  width: 60%;
+  width: 90%;
   max-width: 60em;
-  margin: 0 auto;
+  margin: 0 auto 2vmax;
 }
 footer p {
   font-family: 'Hammersmith One', sans-serif;
@@ -73,12 +73,26 @@ footer #social-links a:hover, footer #social-links a:active {
   text-decoration: none;
   text-transform: uppercase;
 }
+/* hero image */
+#hero {
+  text-align: center;
+  margin: 4vmax 0;
+}
+#hero img {
+  width: 90%;
+  max-width: 60em;
+}
 /* small screens */
 @media screen and (max-width: 800px), screen and (max-device-width: 800px) {
+  body {
+    padding-top: 10.2vmax;
+  }
   #title {
     margin: 0;
     padding: 1vmax 0;
     position: fixed;
+    top: 0;
+    left: 0;
   }
   #title img {
     width: 12vmax;
@@ -86,6 +100,9 @@ footer #social-links a:hover, footer #social-links a:active {
   nav#menu {
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
   }
   nav#menu .switch {
     display: block;
