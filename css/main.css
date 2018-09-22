@@ -6,12 +6,26 @@ html, body {
   padding: 0;
 }
 body {
-  background: #FFFFFF;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: #FFF;
+  font-family: 'Century Gothic', Geneva, Lucida, 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+section p {
+  line-height: 1.5; /* add a little spacing for blocks of text */
+}
+a, a:link, a:hover, a:active {
+  color: #222;
+  outline: 0;
+}
+a:visited {
+  color: #555;
 }
 /* clear */
 .clear, .reset {
   clear: both;
+}
+/* header */
+h1, h2 {
+  font-family: 'Josefin Sans', sans-serif;
 }
 /* title */
 #title {
@@ -107,12 +121,11 @@ form.simple input[type=submit], a.button {
   display: inline-block;
   text-decoration: none;
   border-radius: 3px;
-  background: #FFFFFF;
-  color: #000000;
+  background: #FFF;
+  color: #000;
   padding: 0.75em 1em;
   font-family: 'Hammersmith One', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
 }
 form.simple input[type=submit], a.button:link, a.button:visited {
   border: thin solid #BBB;
@@ -138,7 +151,7 @@ form.simple input[type=text], form.simple input[type=email], form.simple textare
   padding: 1%;
   border: thin solid #BBB;
   border-radius: 3px;
-  background: #FFFFFF;
+  background-color: #FFF;
   font-family: 'Lucida Console', Monaco, monospace;
 }
 form.simple input[type=text], form.simple input[type=email], form.simple textarea {
