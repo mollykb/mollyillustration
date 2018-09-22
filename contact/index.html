@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Molly Illustration</title>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Josefin+Sans" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" rel="stylesheet" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <section id="title">
+      <a href="../" title="Home"><img src="../img/main_title.png" alt="MOLLY BERES"/></a>
+    </section>
+    <nav id="menu">
+      <div class="switch"></div>
+      <ul>
+        <li><a href="#" title="About">About</a></li>
+        <li><a href="#" title="Illustration &amp; Design">Illustration &amp; Design</a></li>
+        <li><a href="https://www.etsy.com/shop/MollyIllustration" title="Shop">Shop</a></li>
+        <li><a href="#" title="Blog">Blog</a></li>
+        <li><a href="#" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="contact">
+      <h2>Want to team up?</h2>
+      <p>
+        Please use this form to introduce yourself and to tell us about your project.
+        You can include any additional contact info in the message.
+        Your message will be sent via <a href="https://formspree.io/">Formspree</a>.
+        Then we'll get back to you shortly.
+      </p>
+      <form action="https://formspree.io/mollyberesdesign@gmail.com" class="simple" method="POST">
+        <input name="_next" type="hidden" value="http://mollyillustration.com/thankyou">
+        <input name="_subject" type="hidden" value="mollyillustration.com inquiry">
+        <input name="_gotcha" type="text" style="display:none;">
+        <table>
+          <tr>
+            <th><label for="fname">First name</label></th>
+            <th><label for="lname">Last name</label></th>
+          </tr>
+          <tr>
+            <td><input id="fname" maxlength="100" name="fname" type="text"></td>
+            <td><input id="lname" maxlength="100" name="lname" type="text"></td>
+          </tr>
+        </table>
+        <label for="email">Email address</label>
+        <input id="email" maxlength="250" name="email" type="email">
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" maxlength="2000" name="message" rows="10"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    <footer>
+      <ul id="social-links">
+        <li><a href="https://m.facebook.com/mollyillustrationofficial"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/molly_illustration/"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      <p id="copyright">&copy; 2018 Molly Beres.</p>
+    </footer>
+  </body>
+</html>
+
