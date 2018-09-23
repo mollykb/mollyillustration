@@ -6,7 +6,7 @@ Please check it out at https://mollyillustration.com
 
 ## Requirements
 
-0. [Hugo](https://gohugo.io/)
+1. [Hugo](https://gohugo.io/)
 
 ## Installation
 
