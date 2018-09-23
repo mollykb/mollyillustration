@@ -1,0 +1,17 @@
+<article class="item">
+  <header>
+    <h2 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p class="meta">
+      Posted on
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+        {{ .Date.Format "Jan 2, 2006" }}
+      </time>
+    </p>
+  </header>
+  <div class="summary">
+    {{ .Summary | plainify | safeHTML }}
+  </div>
+  {{ if .Truncated }}
+  <a href="{{ .Permalink }}" class="goto">Read more</a></li>
+  {{ end }} 
+</article>

@@ -1,0 +1,221 @@
+/* html, body */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #FFF;
+  font-family: 'Century Gothic', Geneva, Lucida, 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+section p {
+  line-height: 1.5; /* add a little spacing for blocks of text */
+}
+a, a:link, a:hover, a:active {
+  color: #222;
+  outline: 0;
+}
+a:visited {
+  color: #555;
+}
+/* clear */
+.clear, .reset {
+  clear: both;
+}
+/* header */
+h1, h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* title */
+#title {
+  margin: 0;
+  padding: 1.5vmax 0;
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+}
+#title img {
+  width: 20vmax;
+  border: 0;
+}
+#title a, #title a:link, #title a:visited, #title a:hover, #title a:active {
+  border: 0;
+  outline: 0;
+}
+/* menu */
+nav#menu .switch {
+  display: none;
+}
+nav#menu ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+}
+nav#menu ul li {
+  display: inline-block;
+  margin: 0 2vw;
+}
+nav#menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+}
+nav#menu a:link, nav#menu a:visited {
+  color: #222;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+nav#menu a:hover, nav#menu a:active {
+  color: #BBB;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+/* footer */
+footer {
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto 2vmax;
+}
+footer p {
+  font-family: 'Hammersmith One', sans-serif;
+}
+footer ul#social-links {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  font-size: 2em;
+  line-height: 1;
+  margin: 0;
+}
+footer ul#social-links li {
+  display: inline-block;
+}
+footer #social-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+}
+footer #social-links a:link, footer #social-links a:visited {
+  color: #222;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+footer #social-links a:hover, footer #social-links a:active {
+  color: #BBB;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+/* main content */
+main#main {
+  width: 90%;
+  max-width: 60em;
+  margin: 4vmax auto;
+}
+/* form */
+form.simple input[type=submit], a.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  background: #FFF;
+  color: #000;
+  padding: 0.75em 1em;
+  font-family: 'Hammersmith One', sans-serif;
+  text-transform: uppercase;
+}
+form.simple input[type=submit], a.button:link, a.button:visited {
+  border: thin solid #BBB;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  transition: border 0.5s;
+}
+form.simple input[type=submit]:hover, form.simple input[type=submit]:focus, a.button:hover, a.button:active {
+  border: thin solid #222;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  transition: border 0.5s;
+}
+form.simple label, form.simple input[type=submit] {
+  margin-top: 1em;
+}
+form.simple label, form.simple input, form.simple textarea {
+  display: block;
+}
+form.simple input[type=text], form.simple input[type=email], form.simple textarea {
+  display: block;
+  width: 97%;
+  padding: 1%;
+  border: thin solid #BBB;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-family: 'Lucida Console', Monaco, monospace;
+}
+form.simple input[type=text], form.simple input[type=email], form.simple textarea {
+  border: thin solid #BBB;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  transition: border 0.5s;
+}
+form.simple input[type=text]:focus, form.simple input[type=email]:focus, form.simple textarea:focus {
+  border: thin solid #222;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  transition: border 0.5s;
+}
+form.simple table input[type=text], form.simple table input[type=email], form.simple table textarea {
+  width: 94%;
+  padding: 2%;
+}
+form.simple table {
+  width: 100%;
+}
+form.simple table th {
+  text-align: left;
+  font-weight: normal;
+}
+/* hero image */
+#hero {
+  text-align: center;
+  margin: 4vmax 0;
+}
+#hero img {
+  width: 90%;
+  max-width: 60em;
+}
+/* small screens */
+@media screen and (max-width: 800px), screen and (max-device-width: 800px) {
+  body {
+    padding-top: 10.2vmax;
+  }
+  #title {
+    margin: 0;
+    padding: 1vmax 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #title img {
+    width: 12vmax;
+  }
+  nav#menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  nav#menu .switch {
+    display: block;
+    height: 10.2vmax; /* (image height / image width) * image width in vmax + padding */
+  }
+  nav#menu ul li {
+    display: block;
+    margin: 0;
+  }
+}
+

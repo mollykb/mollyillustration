@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+<body>
+  <header id="title">
+    <a href="{{ .Site.BaseURL }}" title="Home"><img src="{{ .Site.BaseURL }}img/main_title.png" alt="{{ .Title | default .Site.Title }}"/></a>
+  </header>
+  {{ partial "menu.html" . }}
+  <main id="main">

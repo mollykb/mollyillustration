@@ -1,0 +1,15 @@
+<nav class="pagination">
+  <div class="control">
+    <div class="newer">
+      {{if .HasPrev}}
+      <a href="{{ .Prev.URL }}">Newer</a>
+      {{end}}
+    </div>
+    <div class="older">
+      {{if .HasNext}}
+      <a href="{{ .Next.URL }}">Older</a>
+      {{end}}
+    </div>
+  </div>
+  <span class="count">Page {{ .PageNumber }} of {{.TotalPages}}</span>
+</nav>

@@ -111,12 +111,13 @@ footer #social-links a:hover, footer #social-links a:active {
   -moz-transition: color 0.5s;
   transition: color 0.5s;
 }
-/* form */
-#contact, #thankyou {
+/* main content */
+main#main {
   width: 90%;
   max-width: 60em;
   margin: 4vmax auto;
 }
+/* form */
 form.simple input[type=submit], a.button {
   display: inline-block;
   text-decoration: none;

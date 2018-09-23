@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Molly Beres Illustration &amp; Design</title>
+    <link>https://mollyillustration.com/</link>
+    <description>Recent content on Molly Beres Illustration &amp; Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2018 Molly Beres</copyright>
+    
+	<atom:link href="https://mollyillustration.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thanks for reaching out to us</title>
+      <link>https://mollyillustration.com/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/thankyou/</guid>
+      <description> We&#39;ll get back to you ASAP!  </description>
+    </item>
+    
+    <item>
+      <title>Want to team up?</title>
+      <link>https://mollyillustration.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/contact/</guid>
+      <description> Please use this form to introduce yourself and to tell us about your project. You can include any additional contact info in the message. Your message will be sent via Formspree. Then we&#39;ll get back to you shortly.   First name Last name       Email address Tell us about your project    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+  {{ if .Title }}
+  <h2>{{ .Title }}</h2>
+  {{ end }}
+  {{ .Content }}
+{{ partial "footer.html" . }}
