@@ -187,11 +187,39 @@ form.simple table th {
   width: 90%;
   max-width: 60em;
 }
+/* about page */
+#about table {
+  border-spacing: 1em;
+}
+#about table th, #about table td {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+#about img {
+  float: right;
+  border: 0;
+  width: 33%;
+  max-width: 1500px;
+}
+#about img {
+  filter: none;
+  -webkit-transition: filter 0.5s;
+  -moz-transition: filter 0.5s;
+  transition: filter 0.5s;
+}
+#about img:hover {
+  filter: brightness(150%);
+  -webkit-transition: filter 0.5s;
+  -moz-transition: filter 0.5s;
+  transition: filter 0.5s;
+}
 /* small screens */
 @media screen and (max-width: 800px), screen and (max-device-width: 800px) {
   body {
     padding-top: 10.2vmax;
   }
+  /* title and menu */
   #title {
     margin: 0;
     padding: 1vmax 0;
@@ -244,6 +272,11 @@ form.simple table th {
     background-color: rgba(0, 0, 0, 0.85);
     color: #FFF;
     padding: 3vmax 0;
+  }
+  /* about page */
+  #about img {
+    float: none;
+    width: 100%;
   }
 }
 
