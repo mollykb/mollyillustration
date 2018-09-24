@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
-<h2>Sorry!</h2>
+<h2>Uh oh!</h2>
 <section id="not-found">
-  You must be lost
+  <p>You must be lost. There's nothing here.</p>
+  <img src="{{ .Site.BaseURL }}img/404.gif" alt="Page not found">
 </section>
 {{ partial "footer.html" . }}
 
