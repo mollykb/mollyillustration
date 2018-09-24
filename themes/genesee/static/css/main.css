@@ -185,7 +185,7 @@ form.simple table th {
 }
 #not-found p {
   text-align: left;
-  margin: 1em auto;
+  margin: 0 auto 1em;
 }
 #not-found p, #not-found img {
   width: 90%;
