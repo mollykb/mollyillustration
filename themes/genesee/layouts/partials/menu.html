@@ -1,7 +1,8 @@
 {{ if .Site.Menus.main }}
+<div class="menu switch switch-on"><i class="fas fa-bars"></i></div>
+<div class="menu switch switch-off navOff"><i class="fas fa-times"></i></div>
 <nav id="menu">
-  <div class="switch"></div>
-  <ul>
+  <ul class="navOff">
     {{ range .Site.Menus.main.ByWeight }}
     <li>
       <a href="{{ .URL }}" title="{{ .Name }}"

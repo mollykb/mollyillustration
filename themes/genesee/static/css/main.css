@@ -44,7 +44,7 @@ h1, h2 {
   outline: 0;
 }
 /* menu */
-nav#menu .switch {
+div.menu.switch {
   display: none;
 }
 nav#menu ul {
@@ -198,24 +198,52 @@ form.simple table th {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 200;
   }
   #title img {
     width: 12vmax;
   }
+  div.menu.switch {
+    display: block;
+    color: #FFF;
+    padding: 1vmax 2vmax 0;
+    font-size: 8vmax;
+    line-height: 1;
+    width: 25%;
+    margin: 0 0 0 auto;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 300;
+  }
+  div.menu.switch.navOff {
+    display: none;
+  }
   nav#menu {
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 11vmax; /* ceil((image height / image width) * image width in vmax) + padding */
     left: 0;
-    display: none;
+    z-index: 100;
   }
-  nav#menu .switch {
-    display: block;
-    height: 10.2vmax; /* (image height / image width) * image width in vmax + padding */
+  nav#menu ul {
+    margin: 0;
+    border-top: thin solid #FFF;
+  }
+  nav#menu ul.navOff {
+    display: none;
   }
   nav#menu ul li {
     display: block;
     margin: 0;
+    border-bottom: thin solid #FFF;
+  }
+  nav#menu a:link, nav#menu a:visited, nav#menu a:hover, nav#menu a:active {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #FFF;
+    padding: 3vmax 0;
   }
 }
 
