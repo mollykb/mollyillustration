@@ -1,4 +1,4 @@
-{{ if or ( .Site.Params.twitter ) ( .Site.Params.facebook ) ( .Site.Params.instagram ) }}
+{{ if or ( .Site.Params.twitter ) ( .Site.Params.facebook ) ( .Site.Params.instagram ) ( .Site.Params.linkedin ) }}
 <ul id="social-links">
   {{ with .Site.Params.twitter }}
   <li><a href="https://twitter.com/{{ . }}" title="Twitter"
@@ -11,6 +11,10 @@
   {{ with .Site.Params.instagram }}
   <li><a href="https://instagram.com/{{ . }}" title="Instagram"
     ><i class="fab fa-instagram"></i></a></li>
+  {{ end }}
+  {{ with .Site.Params.linkedin }}
+  <li><a href="https://www.linkedin.com/in/{{ . }}" title="LinkedIn"
+    ><i class="fab fa-linkedin"></i></a></li>
   {{ end }}
 </ul>
 {{ end }}
