@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pattern on Molly Beres Illustration &amp; Design</title>
+    <link>https://mollyillustration.com/categories/pattern/</link>
+    <description>Recent content in Pattern on Molly Beres Illustration &amp; Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2018 Molly Beres</copyright>
+    
+	<atom:link href="https://mollyillustration.com/categories/pattern/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Candy Pattern</title>
+      <link>https://mollyillustration.com/gallery/candy-pattern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/gallery/candy-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creepy Pattern</title>
+      <link>https://mollyillustration.com/gallery/creepy-pattern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/gallery/creepy-pattern/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

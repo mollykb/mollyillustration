@@ -1,0 +1,8 @@
+{{ partial "header" . }}
+{{ if .Title }}
+<h2>{{ .Title }}</h2>
+{{ end }}
+{{ range $index, $page := .Paginator.Pages }}
+{{ .Render "li" }}
+{{ end }}
+{{ partial "footer" . }}

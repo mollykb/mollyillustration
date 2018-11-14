@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<h2>{{ .Title }}</h2>
+<section id="gallery">
+{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "gallery")).Pages }}
+{{ if ne $index 0 }}
+{{ end }}
+{{ .Render "li" }}
+{{ end }}
+{{ partial "pagination.html" .Paginator }}
+</section>
+{{ partial "footer.html" . }}

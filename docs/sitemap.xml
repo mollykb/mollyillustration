@@ -3,8 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mollyillustration.com/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/blondie/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/brunette/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/candy-pattern/</loc>
+  </url>
+  
+  <url>
     <loc>https://mollyillustration.com/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/christen-joan-logo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/creepy-pattern/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/deadly-blossoms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/categories/design/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/feets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/flower-petals/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/glasses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/good-juju-voo-doo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/hot-dog/</loc>
   </url>
   
   <url>
@@ -12,8 +65,38 @@
   </url>
   
   <url>
+    <loc>https://mollyillustration.com/categories/illustration/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/lana/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/lunar-calendar-2019/</loc>
+  </url>
+  
+  <url>
     <loc>https://mollyillustration.com/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/nappin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/categories/pattern/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/sabrina/</loc>
   </url>
   
   <url>
@@ -26,7 +109,19 @@
   </url>
   
   <url>
+    <loc>https://mollyillustration.com/gallery/thead-stuff-logo/</loc>
+  </url>
+  
+  <url>
     <loc>https://mollyillustration.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/winnie/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mollyillustration.com/gallery/witchy/</loc>
   </url>
   
 </urlset>

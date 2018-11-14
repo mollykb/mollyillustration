@@ -11,5 +11,32 @@
 	<atom:link href="https://mollyillustration.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Design</title>
+      <link>https://mollyillustration.com/categories/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Illustration</title>
+      <link>https://mollyillustration.com/categories/illustration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/categories/illustration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pattern</title>
+      <link>https://mollyillustration.com/categories/pattern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/categories/pattern/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

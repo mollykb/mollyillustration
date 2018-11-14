@@ -77,7 +77,7 @@ nav#menu a:hover, nav#menu a:active {
 /* footer */
 footer {
   width: 90%;
-  max-width: 60em;
+  max-width: 68em;
   margin: 0 auto 2vmax;
 }
 footer p {
@@ -114,7 +114,7 @@ footer #social-links a:hover, footer #social-links a:active {
 /* main content */
 main#main {
   width: 90%;
-  max-width: 60em;
+  max-width: 64em;
   margin: 4vmax auto;
 }
 /* form */
@@ -189,7 +189,7 @@ form.simple table th {
 }
 #not-found p, #not-found img {
   width: 90%;
-  max-width: 60em;
+  max-width: 64em;
 }
 /* hero image */
 #hero {
@@ -198,7 +198,7 @@ form.simple table th {
 }
 #hero img {
   width: 90%;
-  max-width: 60em;
+  max-width: 64em;
 }
 /* about page */
 #about table {
@@ -226,6 +226,46 @@ form.simple table th {
   -webkit-transition: filter 0.5s;
   -moz-transition: filter 0.5s;
   transition: filter 0.5s;
+}
+/* gallery */
+article.gallery {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 0 10px 10px 0;
+}
+article.gallery .preview {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+article.gallery .preview img {
+  min-width: 300px;
+  min-height: 200px;
+  vertical-align: middle;
+}
+article.gallery .preview img {
+  filter: none;
+  -webkit-transition: filter 0.5s;
+  -moz-transition: filter 0.5s;
+  transition: filter 0.5s;
+}
+article.gallery .preview img:hover {
+  filter: brightness(125%);
+  -webkit-transition: filter 0.5s;
+  -moz-transition: filter 0.5s;
+  transition: filter 0.5s;
+}
+#gallery-single .context img {
+  max-width: 64em;
+}
+/* pagination */
+nav.pagination {
+  margin: 1em 0;
+}
+/* categories */
+div.cats {
+  margin: 1em 0;
 }
 /* small screens */
 @media screen and (max-width: 800px), screen and (max-device-width: 800px) {

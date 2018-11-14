@@ -17,7 +17,7 @@ theme = "genesee"
 
 [[menu.main]]
   name = "Illustration & Design"
-  url = "/work"
+  url = "/gallery"
   weight = 20
 
 [[menu.main]]

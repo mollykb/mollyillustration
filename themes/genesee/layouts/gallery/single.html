@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+  {{ if .Title }}
+  <h2>{{ .Title }}</h2>
+  {{ end }}
+  <section id="gallery-single">
+    <div class="context">
+      <img src="{{ .Site.BaseURL }}img/{{ .Params.image }}" alt="{{ .Params.alt }}">
+    </div>
+    <div class="description">
+      {{ .Content }}
+    </div>
+    {{ if .Params.categories }}
+    <div class="cats">
+      Categories:
+      {{ range .Params.categories }}
+      <a href="{{ $baseurl }}/categories/{{ . | urlize }}" class="cat">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+{{ partial "footer.html" . }}
