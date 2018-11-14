@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mollyillustration.com/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://mollyillustration.com/posts/</loc>
   </url>
   
@@ -58,10 +62,6 @@
   
   <url>
     <loc>https://mollyillustration.com/gallery/hot-dog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mollyillustration.com/about/</loc>
   </url>
   
   <url>

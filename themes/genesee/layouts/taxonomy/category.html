@@ -2,7 +2,7 @@
 {{ if .Title }}
 <h2>{{ .Title }}</h2>
 {{ end }}
-{{ range $index, $page := .Paginator.Pages }}
+{{ range $index, $page := (.Paginator 12).Pages }}
 {{ .Render "li" }}
 {{ end }}
 {{ partial "footer" . }}

@@ -12,6 +12,18 @@
     
     
     <item>
+      <title></title>
+      <link>https://mollyillustration.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mollyillustration.com/about/</guid>
+      <description>My name is Molly Beres, and I&#39;m an illustrator and graphic designer based in Buffalo, New York.
+Education   2018  Bachelor of Science, Graphic Design
+The College at Brockport, State University of New York    2014  Bachelor of Art, English
+Daemen College     </description>
+    </item>
+    
+    <item>
       <title>Blondie</title>
       <link>https://mollyillustration.com/gallery/blondie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -108,18 +120,6 @@
       
       <guid>https://mollyillustration.com/gallery/hot-dog/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>I am Molly Beres</title>
-      <link>https://mollyillustration.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mollyillustration.com/about/</guid>
-      <description>I&#39;m an illustrator and graphic designer based in Buffalo, New York.
-Education   2018  Bachelor of Science, Graphic Design
-The College at Brockport, State University of New York    2014  Bachelor of Art, English
-Daemen College     </description>
     </item>
     
     <item>
