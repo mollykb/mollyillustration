@@ -1,4 +1,4 @@
 <article class="gallery">
   <div class="preview"><a href="{{ .Permalink }}"><img
-    src="{{ .Site.BaseURL }}img/{{ with .Params.preview }}{{ . }}{{ else }}{{.Params.image }}{{ end }}" alt="{{ .Params.Alt }}"></a></div>
+    src="{{ .Site.BaseURL }}img/{{ with .Params.preview | default .Params.image }}{{ . }}{{ end }}" alt="{{ .Params.Alt }}"></a></div>
 </article>
