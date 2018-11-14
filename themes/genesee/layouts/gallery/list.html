@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <h2>{{ .Title }}</h2>
 <section id="gallery">
-{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "gallery")).Pages }}
+{{ range $index, $page := (.Paginate (where .Data.Pages "Type" "gallery") 12).Pages }}
 {{ if ne $index 0 }}
 {{ end }}
 {{ .Render "li" }}
