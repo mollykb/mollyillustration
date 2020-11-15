@@ -1,7 +1,7 @@
 baseURL = "https://old.mollyillustration.com/"
 languageCode = "en-us"
 title = "Molly Beres Illustration & Design"
-copyright = "© 2018-2021 Molly Beres"
+copyright = "© 2018, 2020 Molly Beres"
 theme = "genesee"
 
 [params]
