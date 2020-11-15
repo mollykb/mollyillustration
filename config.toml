@@ -1,12 +1,12 @@
-baseURL = "https://mollyillustration.com/"
+baseURL = "https://old.mollyillustration.com/"
 languageCode = "en-us"
 title = "Molly Beres Illustration & Design"
-copyright = "© 2018 Molly Beres"
+copyright = "© 2018-2021 Molly Beres"
 theme = "genesee"
 
 [params]
   facebook = "mollyillustrationofficial"
-  instagram = "molly_illustration"
+  instagram = "mollyillustration"
   linkedin = "molly-beres-899a52157"
   author = "Molly Beres"
 
