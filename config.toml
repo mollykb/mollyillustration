@@ -29,8 +29,3 @@ theme = "genesee"
   name = "Blog"
   url = "/posts"
   weight = 40
-
-[[menu.main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 50
